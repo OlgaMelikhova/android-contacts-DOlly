@@ -25,7 +25,7 @@ public class ContactUi implements ListDiffInterface<ContactUi> {
         this.photo = photo;
         this.types = types;
     }
- //@Override
+ @Override
     public boolean theSameAs(ContactUi contactUi) {
             return this.hashCode() == contactUi.hashCode();
       }
